@@ -6,9 +6,9 @@ def type_combine(types):
 
 def get_dex_info(name):
     name = name.replace("é", "e")
-    print(name.lower())
+    # print(name.lower())
     dex_url = f'https://pokemondb.net/pokedex/{name.lower()}#dex-flavor'
-    print(requests.get(dex_url))
+    # print(requests.get(dex_url))
     dex_data = requests.get(dex_url).text
     soup_dex = BeautifulSoup(dex_data, 'lxml')
     info = soup_dex.find_all('td', class_='cell-med-text')
