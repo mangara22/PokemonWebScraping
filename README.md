@@ -1,3 +1,2 @@
 # PokemonWebScraping
-A short `Python` script that scrapes Pokémon data from a website using `BeautifulSoup`.
-- This is used for getting Pokémon data for my improved TextSafariZone.
+A `Python` script that scrapes Pokémon data from [this website](https://pokemondb.net/pokedex/national) using `BeautifulSoup`.
